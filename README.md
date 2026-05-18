@@ -47,3 +47,10 @@ If you would like to test MerchantEdge AI on your own machine:
 Clone this repository and install the required dependencies:
 ```bash
 pip install streamlit openai
+
+**3. Launch the Application**
+Run the Streamlit app strictly on your local network:
+` ` `bash
+streamlit run app.py --server.address 127.0.0.1
+` ` `
+The MerchantEdge Hub will automatically open in your default web browser at `http://127.0.0.1:8501`. Feel free to disable your Wi-Fi and test its offline capabilities!
