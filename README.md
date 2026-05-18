@@ -47,7 +47,7 @@ If you would like to test MerchantEdge AI on your own machine:
 Clone this repository and install the required dependencies:
 ```bash
 pip install streamlit openai
-
+```
 **3. Launch the Application**
 Run the Streamlit app strictly on your local network:
 ` ` `bash
